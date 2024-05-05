@@ -42,9 +42,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 441.2863967966344,
-			"y": 408.6990553498771,
-			"lastActivityTimestamp": 1714942736711,
+			"x": 616.0673954300796,
+			"y": 80.91180839625315,
+			"lastActivityTimestamp": 1714952742049,
 			"meta": {}
 		},
 		{
@@ -108,9 +108,9 @@
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:ndG4y9Z-TSxzec0RNRYGX",
-				"shape:PvYA5zvJIg_cMzyaOdI6c",
-				"shape:1r8-9LZdXKHq41MltaOt6"
+				"shape:-xloGIVkVGafzC1OA4hN_",
+				"shape:AJtyLYqtkX8CtXYiW2_oV",
+				"shape:alslCkYa1IGyUF_vlbxSj"
 			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
@@ -122,16 +122,16 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": 437.45649281858147,
-			"y": 633.7496830801648,
-			"z": 0.531441,
+			"x": 1852.6205607792108,
+			"y": 1018.7363152103895,
+			"z": 0.45287214092327277,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
 		},
 		{
-			"x": -194.8192337872674,
-			"y": -172.4075560297238,
+			"x": -1516.8439173206912,
+			"y": -382.03092022635553,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -153,8 +153,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 200.2653525436079,
-			"y": -255.20101713582636,
+			"x": -1121.759330989816,
+			"y": -464.8243813324581,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -176,8 +176,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -203.6177411979877,
-			"y": -252.71834808144132,
+			"x": -1525.6424247314114,
+			"y": -462.34171227807303,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -205,8 +205,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -208.21759428316045,
-			"y": 285.1837104256522,
+			"x": -174.67785601169953,
+			"y": -382.8160768142807,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -228,8 +228,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 187.4166955386396,
-			"y": 198.6910712645082,
+			"x": 220.95643381010052,
+			"y": -469.30871597542466,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -251,8 +251,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -211.14444689062327,
-			"y": 208.292375592494,
+			"x": -177.60470861916235,
+			"y": -459.70741164743885,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -277,6 +277,156 @@
 			},
 			"parentId": "page:page",
 			"index": "a6",
+			"typeName": "shape"
+		},
+		{
+			"x": -1523.113355564858,
+			"y": 5.90440213755528,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:dQ2pmb5MMG-psmljRcP5b",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1040.8590186061822,
+				"text": "Quick Sort é um algoritmo de ordenação muito eficiente, inventado por C.A.R. Hoare. Ele utiliza a estratégia de divisão e conquista para ordenar elementos. O algoritmo divide a lista em sub-listas menores baseando-se em um “pivô”, e depois ordena essas sub-listas de forma recursiva.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1.2420551758364906
+			},
+			"parentId": "page:page",
+			"index": "a7",
+			"typeName": "shape"
+		},
+		{
+			"x": -1109.444094281081,
+			"y": -80.5882370235887,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:eBnMqGPmuPSA1hjcOhZOP",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 321.71235431954784,
+				"text": "Quick Sort",
+				"font": "draw",
+				"textAlign": "middle",
+				"autoSize": true,
+				"scale": 2.5229249695443037
+			},
+			"parentId": "page:page",
+			"index": "a8",
+			"typeName": "shape"
+		},
+		{
+			"x": -1526.040208172321,
+			"y": -70.98693269560295,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:iERljNU0DnjlxS4jLiYpY",
+			"type": "geo",
+			"props": {
+				"w": 1301.653274330506,
+				"h": 233.6237715777158,
+				"geo": "rectangle",
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": ""
+			},
+			"parentId": "page:page",
+			"index": "a9",
+			"typeName": "shape"
+		},
+		{
+			"x": -155.50703694839513,
+			"y": 3.7237868380331065,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:-xloGIVkVGafzC1OA4hN_",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 994.2840196588219,
+				"text": "Bubble Sort é um algoritmo de ordenação simples que percorre repetidamente a lista, compara elementos adjacentes e os troca se estiverem na ordem errada.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1.30158754413457
+			},
+			"parentId": "page:page",
+			"index": "aA",
+			"typeName": "shape"
+		},
+		{
+			"x": 220.1741947593202,
+			"y": -84.69714294001574,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:AJtyLYqtkX8CtXYiW2_oV",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 359.122601133572,
+				"text": "Bubble Sort",
+				"font": "draw",
+				"textAlign": "middle",
+				"autoSize": true,
+				"scale": 2.5229249695443037
+			},
+			"parentId": "page:page",
+			"index": "aB",
+			"typeName": "shape"
+		},
+		{
+			"x": -177.71679572490746,
+			"y": -75.09583861202987,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:alslCkYa1IGyUF_vlbxSj",
+			"type": "geo",
+			"props": {
+				"w": 1301.653274330506,
+				"h": 209.5789663976047,
+				"geo": "rectangle",
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": ""
+			},
+			"parentId": "page:page",
+			"index": "aC",
 			"typeName": "shape"
 		}
 	]
