@@ -21,6 +21,7 @@ registro* cria_registro();
 Fila* cria_fila();
 void inserir_registro(Fila *fila, int novo_valor);
 void remover_registro(Fila *fila, int N);
+void remover_registro_fila(Fila *fila);
 void mostrar_fila(Fila *fila);
 void zerar_fila(Fila *fila);
 void inverter_fila(Fila *fila);
@@ -45,7 +46,8 @@ void menu(Fila *fila) {
         printf("+- 3 - Mostrar a Fila             --+\n");
         printf("+- 4 - Zerar a Fila               --+\n");
         printf("+- 5 - Inverter a fila            --+\n");
-        printf("+- 6 - Sair                       --+\n");
+        printf("+- 6 - Remover como fila          --+\n");
+        printf("+- 7 - Sair                       --+\n");
         printf("+- Operacao:");
         scanf("%d", &opcao);
 
@@ -81,14 +83,19 @@ void menu(Fila *fila) {
                 break;
 
             case 6:
+                remover_registro_fila(fila);
+                printf("Numero removido com sucesso!");
                 break;
             
+            case 7:
+                break;
+
             default:
                 printf("opcao invalida!");
                 sleep(1);
                 break;
         }
-    }while(opcao != 6);
+    }while(opcao != 7);
 
     printf("\n");
 }
@@ -162,6 +169,25 @@ void remover_registro(Fila *fila, int N)
     // Libera a memória do registro removido
     free(aux_atual);
 }
+
+void remover_registro_fila(Fila *fila){
+    if(fila->inicio == NULL){
+        printf("Fila vazia");
+        return;
+    }
+    
+    registro *aux = fila->inicio;   // Igual o Aux para apontar o inicio da fila
+
+    fila->inicio = aux->proximo; // Coloca o inicio para o proximo
+
+    free(aux);
+
+    if(fila->inicio == NULL){
+        fila->fim = NULL;
+    }
+
+}
+
 
 void mostrar_fila(Fila *fila) {
     // Verifica se a fila está vazia
