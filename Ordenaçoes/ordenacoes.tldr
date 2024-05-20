@@ -42,9 +42,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 616.0673954300796,
-			"y": 80.91180839625315,
-			"lastActivityTimestamp": 1714952742049,
+			"x": 757.2824675285085,
+			"y": -174.81721961604637,
+			"lastActivityTimestamp": 1716247264845,
 			"meta": {}
 		},
 		{
@@ -65,7 +65,7 @@
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "move",
+				"type": "default",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -75,12 +75,12 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1653,
-				"h": 918
+				"w": 1249.5999755859375,
+				"h": 702.4000244140625
 			},
 			"insets": [
 				false,
-				false,
+				true,
 				true,
 				false
 			],
@@ -105,14 +105,12 @@
 			"typeName": "instance"
 		},
 		{
-			"editingShapeId": null,
+			"editingShapeId": "shape:ndG4y9Z-TSxzec0RNRYGX",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:-xloGIVkVGafzC1OA4hN_",
-				"shape:AJtyLYqtkX8CtXYiW2_oV",
-				"shape:alslCkYa1IGyUF_vlbxSj"
+				"shape:ndG4y9Z-TSxzec0RNRYGX"
 			],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:ndG4y9Z-TSxzec0RNRYGX",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -122,9 +120,9 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": 1852.6205607792108,
-			"y": 1018.7363152103895,
-			"z": 0.45287214092327277,
+			"x": 1869.3163346803565,
+			"y": 824.8964087436605,
+			"z": 0.37287766353598656,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -217,7 +215,7 @@
 				"color": "black",
 				"size": "m",
 				"w": 1040.8590186061822,
-				"text": "O algoritmo Merge Sort, ou ordenação por fusão, é um algoritmo de ordenação que utiliza a estratégia de dividir para conquistar. Ele funciona da seguinte maneira:\n\n• Divide o array em duas metades.\n• Ordena as duas metades recursivamente utilizando o Merge Sort.\n• Combina as duas metades em um único array ordenado.",
+				"text": "O algoritmo Merge Sort, ou ordenação por fusão, é um algoritmo de ordenação que utiliza a estratégia de dividir para conquistar. Ele funciona da seguinte maneira:\n\n• Divide o array em duas metades.\n• Ordena as duas metades recursivamente utilizando o Merge Sort.\n• Combina as duas metades em um único array ordenado.\n• Usa muita memória \n• sempre vai ser n log(n)",
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": false,
@@ -261,7 +259,7 @@
 			"type": "geo",
 			"props": {
 				"w": 1301.653274330506,
-				"h": 332.98956587952097,
+				"h": 446.69976641662646,
 				"geo": "rectangle",
 				"color": "black",
 				"labelColor": "black",
@@ -280,8 +278,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -1523.113355564858,
-			"y": 5.90440213755528,
+			"x": -1536.522579256578,
+			"y": 93.86887681787675,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -303,8 +301,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -1109.444094281081,
-			"y": -80.5882370235887,
+			"x": -1122.853317972801,
+			"y": 7.376237656732769,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -326,8 +324,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -1526.040208172321,
-			"y": -70.98693269560295,
+			"x": -1539.449431864041,
+			"y": 16.977541984718528,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -336,7 +334,7 @@
 			"type": "geo",
 			"props": {
 				"w": 1301.653274330506,
-				"h": 233.6237715777158,
+				"h": 424.5710678417667,
 				"geo": "rectangle",
 				"color": "black",
 				"labelColor": "black",
@@ -355,8 +353,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -155.50703694839513,
-			"y": 3.7237868380331065,
+			"x": -168.91626064011507,
+			"y": 91.68826151835458,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -378,8 +376,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 220.1741947593202,
-			"y": -84.69714294001574,
+			"x": 206.76497106760024,
+			"y": 3.2673317403057354,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -401,8 +399,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -177.71679572490746,
-			"y": -75.09583861202987,
+			"x": -191.1260194166274,
+			"y": 12.868636068291607,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -427,6 +425,29 @@
 			},
 			"parentId": "page:page",
 			"index": "aC",
+			"typeName": "shape"
+		},
+		{
+			"x": -1509.1676483447,
+			"y": 267.65238312520717,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:jJjtrq0nnPaaPZ86DsSK2",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1040.8590186061822,
+				"text": "Quanto mais desorganizado melhor.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1.2420551758364906
+			},
+			"parentId": "page:page",
+			"index": "aD",
 			"typeName": "shape"
 		}
 	]
