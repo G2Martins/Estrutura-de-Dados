@@ -42,9 +42,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 757.2824675285085,
-			"y": -174.81721961604637,
-			"lastActivityTimestamp": 1716247264845,
+			"x": -1015.4168226734869,
+			"y": 649.0455576623044,
+			"lastActivityTimestamp": 1716247502048,
 			"meta": {}
 		},
 		{
@@ -65,7 +65,7 @@
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "default",
+				"type": "ns-resize",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -105,12 +105,12 @@
 			"typeName": "instance"
 		},
 		{
-			"editingShapeId": "shape:ndG4y9Z-TSxzec0RNRYGX",
+			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:ndG4y9Z-TSxzec0RNRYGX"
+				"shape:F_fUg0UV2WSiBE9uMBymD"
 			],
-			"hoveredShapeId": "shape:ndG4y9Z-TSxzec0RNRYGX",
+			"hoveredShapeId": "shape:F_fUg0UV2WSiBE9uMBymD",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -140,7 +140,7 @@
 				"color": "black",
 				"size": "m",
 				"w": 1082.3396990740744,
-				"text": "O algoritmo de ordenação Selection Sort, ou ordenação por seleção, é um algoritmo simples e intuitivo. Ele funciona da seguinte maneira:\n\n• Encontre o menor elemento do array e troque-o com o elemento na primeira posição.\n• Encontre o segundo menor elemento e troque-o com o elemento na segunda posição.\n• Repita o processo até que o array esteja ordenado.",
+				"text": "O algoritmo de ordenação Selection Sort, ou ordenação por seleção, é um algoritmo simples e intuitivo. Ele funciona da seguinte maneira:\n\n• Encontre o menor elemento do array e troque-o com o elemento na primeira posição.\n• Encontre o segundo menor elemento e troque-o com o elemento na segunda posição.\n• Repita o processo até que o array esteja ordenado.\n• Sempre ruim.",
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": false,
@@ -184,7 +184,7 @@
 			"type": "geo",
 			"props": {
 				"w": 1275.3098044062813,
-				"h": 312.2911252247728,
+				"h": 387.3827778984056,
 				"geo": "rectangle",
 				"color": "black",
 				"labelColor": "black",
@@ -428,8 +428,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -1509.1676483447,
-			"y": 267.65238312520717,
+			"x": -1533.3042509897962,
+			"y": 261.2159721218628,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -440,7 +440,7 @@
 				"color": "black",
 				"size": "m",
 				"w": 1040.8590186061822,
-				"text": "Quanto mais desorganizado melhor.",
+				"text": "• Quanto mais desorganizado melhor.\n• Nem sempre vai ser n log(n)",
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": false,
@@ -448,6 +448,104 @@
 			},
 			"parentId": "page:page",
 			"index": "aD",
+			"typeName": "shape"
+		},
+		{
+			"x": -1529.794794898173,
+			"y": 488.1347915182564,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:F_fUg0UV2WSiBE9uMBymD",
+			"type": "geo",
+			"props": {
+				"w": 1291.040061130985,
+				"h": 158.76532309073514,
+				"geo": "rectangle",
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": ""
+			},
+			"parentId": "page:page",
+			"index": "aE",
+			"typeName": "shape"
+		},
+		{
+			"x": -1131.2067864356118,
+			"y": 490.1082905586577,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:PVZIaeSF_vEX_EtMqNOZq",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 354.502487083738,
+				"text": "Insert Sort",
+				"font": "draw",
+				"textAlign": "middle",
+				"autoSize": true,
+				"scale": 2.5229249695443037
+			},
+			"parentId": "page:page",
+			"index": "aF",
+			"typeName": "shape"
+		},
+		{
+			"x": -1122.853317972801,
+			"y": 7.376237656732769,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:uClpHpxr_9e8co0uR7W6k",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 321.71235431954784,
+				"text": "Quick Sort",
+				"font": "draw",
+				"textAlign": "middle",
+				"autoSize": true,
+				"scale": 2.5229249695443037
+			},
+			"parentId": "page:page",
+			"index": "aG",
+			"typeName": "shape"
+		},
+		{
+			"x": -1511.3132550848252,
+			"y": 559.4372216064874,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:GTpQPpB0-URFfKlPaLvcg",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1040.8590186061822,
+				"text": "• Tempo de execução O(n²)\n• Bom para quando estiver quase todo ordenado",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1.2420551758364906
+			},
+			"parentId": "page:page",
+			"index": "aH",
 			"typeName": "shape"
 		}
 	]
