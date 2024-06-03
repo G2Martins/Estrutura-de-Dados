@@ -15,8 +15,8 @@ int main() {
     scanf("%d", &opcao);
 
     int arr[] = {64, 25, 12, 22, 11};
-    int n = sizeof(arr) / sizeof(arr[0]);
-
+    int n = sizeof(arr) / sizeof(arr[0]);       
+                                        
     switch(opcao) {
         case 1:
             ordenacaoPorSelecao(arr, n);
@@ -62,7 +62,7 @@ void ordenacaoPorFusao(int arr[], int l, int r) {
         int m = l + (r - l) / 2;
         ordenacaoPorFusao(arr, l, m);
         ordenacaoPorFusao(arr, m + 1, r);
-        fusao(arr, l, m, r); // Corrigido o nome da função aqui
+        fusao(arr, l, m, r); 
     }
 }
 
