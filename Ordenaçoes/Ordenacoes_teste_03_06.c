@@ -14,7 +14,8 @@ int main() {
     int menuLoop = 1;
     int opcao;
     
-    do{
+    do
+    {
         system("cls || clear");
 
         printf("+----------------- MENU ------------------+\n");
@@ -47,7 +48,8 @@ int main() {
         //sizeof(vetorDesordenado[0]) retorna o tamanho de um único elemento do array (nesse caso, o tamanho de um int).
         // A divisão desses dois valores resulta no número de elementos no array, que é armazenado na variável n
         
-        switch(opcao) {
+        switch(opcao) 
+        {
             case 1:
                 bubble(vetorDesordenado, n);
                 printf("\nArray ordenado por Bubble do vet 1: \n");
@@ -323,7 +325,6 @@ void merge(int *vetor, int inicio, int meio, int fim){
     free(aux);
     return ;
 }
-
 
 // Função para realizar o merge sort
 void mergeSort(int *vetor, int inicio, int fim){
