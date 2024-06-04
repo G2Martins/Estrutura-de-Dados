@@ -42,9 +42,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 5759.022669983131,
-			"y": -523.8703313930034,
-			"lastActivityTimestamp": 1717448561226,
+			"x": 2634.656685174954,
+			"y": -1811.5038208516526,
+			"lastActivityTimestamp": 1717455242889,
 			"meta": {}
 		},
 		{
@@ -75,12 +75,12 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1547,
-				"h": 918
+				"w": 1249.5999755859375,
+				"h": 702.4000244140625
 			},
 			"insets": [
 				false,
-				false,
+				true,
 				true,
 				false
 			],
@@ -94,9 +94,9 @@
 			"isFocused": true,
 			"devicePixelRatio": 1,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": false,
+			"isHoveringCanvas": true,
 			"openMenus": [],
-			"isChangingStyle": true,
+			"isChangingStyle": false,
 			"isReadonly": false,
 			"meta": {},
 			"duplicateProps": null,
@@ -108,7 +108,7 @@
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:alslCkYa1IGyUF_vlbxSj"
+				"shape:PqQfD_YCnkO11TrHfwkjl"
 			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
@@ -120,16 +120,16 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": 408.0828421141957,
-			"y": 2004.1545406056323,
-			"z": 0.22360570891724954,
+			"x": 1622.7212583007984,
+			"y": 2425.77283411926,
+			"z": 0.14586442835117697,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
 		},
 		{
-			"x": -3036.7830783969994,
-			"y": -662.8703664124721,
+			"x": -3792.099664473647,
+			"y": -585.7838722852923,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -140,19 +140,19 @@
 				"color": "black",
 				"size": "m",
 				"w": 1082.3396990740744,
-				"text": "O algoritmo de ordenação Selection Sort, ou ordenação por seleção, é um algoritmo simples e intuitivo. Ele funciona da seguinte maneira:\n\n• Encontre o menor elemento do array e troque-o com o elemento na primeira posição.\n• Encontre o segundo menor elemento e troque-o com o elemento na segunda posição.\n• Repita o processo até que o array esteja ordenado.\n• Sempre ruim.",
+				"text": "O algoritmo de ordenação Selection Sort, ou ordenação por seleção, é um algoritmo simples e intuitivo. Ele funciona da seguinte maneira:\n\n• Encontre o menor elemento do array e troque-o com o elemento na primeira posição.\n• Encontre o segundo menor elemento e troque-o com o elemento na segunda posição.\n• Repita o processo até que o array esteja ordenado.\n• Sempre ruim.\n• Ineficiente par agrandes conjuntos de dados• Melhor caso: O(N^2)\n• Pior caso: O(N^2)",
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": false,
-				"scale": 1.1765386578235624
+				"scale": 1.5903247556357298
 			},
 			"parentId": "page:page",
 			"index": "a1",
 			"typeName": "shape"
 		},
 		{
-			"x": -2641.698492066124,
-			"y": -745.6638275185746,
+			"x": -2966.47839073483,
+			"y": -734.3917042729988,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -174,8 +174,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -3045.5815858077194,
-			"y": -743.1811584641896,
+			"x": -3805.0452566642425,
+			"y": -731.9090352186138,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -183,8 +183,8 @@
 			"id": "shape:syyLg6hc4OFSLvXBbm2PW",
 			"type": "geo",
 			"props": {
-				"w": 1275.3098044062813,
-				"h": 387.3827778984056,
+				"w": 1709.9935765940982,
+				"h": 661.6139509754184,
 				"geo": "rectangle",
 				"color": "black",
 				"labelColor": "black",
@@ -723,13 +723,95 @@
 				"bend": -325.30379956565434,
 				"start": {
 					"type": "point",
-					"x": 290.73512172293636,
-					"y": -112.82258454919929
+					"x": 250.9724644325181,
+					"y": -3.1316874548158466
 				},
 				"end": {
 					"type": "point",
 					"x": 1368.1888506336763,
 					"y": 509.01206308122846
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw"
+			},
+			"typeName": "shape"
+		},
+		{
+			"x": 243.39521220491065,
+			"y": -1504.3692357608056,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:WOD-moJx6Q2kS6zuxDf54",
+			"type": "arrow",
+			"parentId": "page:page",
+			"index": "aN",
+			"props": {
+				"dash": "draw",
+				"size": "xl",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": -512.2583628285714,
+				"start": {
+					"type": "point",
+					"x": 4.113450484795976,
+					"y": 109.69089709438344
+				},
+				"end": {
+					"type": "point",
+					"x": 3486.799224012683,
+					"y": 740.4135553870874
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw"
+			},
+			"typeName": "shape"
+		},
+		{
+			"x": 210.48781754532615,
+			"y": -1564.69930238929,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:PqQfD_YCnkO11TrHfwkjl",
+			"type": "arrow",
+			"parentId": "page:page",
+			"index": "aL4",
+			"props": {
+				"dash": "draw",
+				"size": "xl",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": -865.2415392482849,
+				"start": {
+					"type": "binding",
+					"boundShapeId": "shape:N9zIzbxxXJ6GodNBQ8Q2G",
+					"normalizedAnchor": {
+						"x": 0.9944245040250469,
+						"y": 0.038106127957762415
+					},
+					"isPrecise": false,
+					"isExact": false
+				},
+				"end": {
+					"type": "binding",
+					"boundShapeId": "shape:AJtyLYqtkX8CtXYiW2_oV",
+					"normalizedAnchor": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"isPrecise": true,
+					"isExact": false
 				},
 				"arrowheadStart": "none",
 				"arrowheadEnd": "arrow",

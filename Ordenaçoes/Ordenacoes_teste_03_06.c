@@ -6,7 +6,9 @@ void bubble(int *V, int n);
 void mostrar_vetor(int *vet, int tamanho);
 void insertionSort(int *V, int n);
 void quicksort(int *vet,  int inicio, int fim);
-
+void selectionSort(int *V, int n);
+void merge(int *vetor, int inicio, int meio, int fim);
+void mergeSort(int *vetor, int inicio, int fim);
 
 int main() {
     int menuLoop = 1;
@@ -26,6 +28,7 @@ int main() {
         printf("+- 7. Ordenacao por SelectionSort Vet 1  -+\n");
         printf("+- 8. Ordenacao por SelectionSort Vet 2  -+\n");
         printf("+- 9. Ordenacao por MergeSort Vet 1      -+\n");
+        printf("+- 10.Ordenacao por MergeSort Vet 2      -+\n");
         printf("+- 0. Sair                               -+\n");
         printf("+- Digite a opcao: ");
         scanf("%d", &opcao);
@@ -83,6 +86,34 @@ int main() {
             case 6:
                 quicksort(vetorDesordenado2, 0, 11);
                 printf("\nVetor ordenado por QuickSort do vet 2: \n");
+                mostrar_vetor(vetorDesordenado2, n);
+                sleep(4);
+                break;
+
+            case 7:
+                selectionSort(vetorDesordenado, n);
+                printf("\nVetor ordenado por SelectionSort do vet 1: \n");
+                mostrar_vetor(vetorDesordenado, n);
+                sleep(4);
+                break;
+
+            case 8:
+                selectionSort(vetorDesordenado2, n);
+                printf("\nVetor ordenado por SelectionSort do vet 2: \n");
+                mostrar_vetor(vetorDesordenado2, n);
+                sleep(4);
+                break;
+
+            case 9:
+                mergeSort(vetorDesordenado, 0, 11);
+                printf("\nVetor ordenado por MergeSort do vet 1: \n");
+                mostrar_vetor(vetorDesordenado, n);
+                sleep(4);
+                break;
+
+            case 10:
+                mergeSort(vetorDesordenado2, 0, 11);
+                printf("\nVetor ordenado por MergeSort do vet 2: \n");
                 mostrar_vetor(vetorDesordenado2, n);
                 sleep(4);
                 break;
@@ -219,6 +250,96 @@ void quicksort(int *vet,  int inicio, int fim)
     quicksort(vet, pivo + 1, fim);
 }
 
-void selectionSort(){
-    
+void selectionSort(int *V, int n){
+    int i, j, menor, troca;
+
+    for(i = 0; i < n - 1; i++)
+    {
+        for(j = i + 1; j < n; j++)
+        {
+            menor = i;
+
+            if( V[j] < V[menor])
+            {
+                menor = j;
+            }
+            if( i != menor)
+            {
+                troca = V[i];
+                V[i] = V[menor];
+                V[menor] = troca;
+            }
+        }
+    }
+}
+
+// Função para unir os elementos separados pelo merge sort
+void merge(int *vetor, int inicio, int meio, int fim){
+   
+    int i, j, *aux, k;
+    //Vetor de tamanho fim-inicio +1 para agrupar elementos separados
+    aux = (int *)calloc(fim - inicio + 1, sizeof(int));
+
+
+    i = inicio;
+    j = meio + 1;
+    k = 0;
+
+
+    //Enquanto i e j puderem andar, podemos decidir quais deles ocupam quais posições dentro do vetor
+    while (i <= meio && j <= fim) {
+        if (vetor[i] <= vetor[j]) {
+            aux[k] = vetor[i];
+            k++;
+            i++;
+        } else {
+            aux[k] = vetor[j];
+            j++;
+            k++;
+        }
+    }
+
+
+    // Caso algum dos dois acabe primeiro que o outro, apenas completamos o resto do vetor com os valores que não foram inseridos daquele que não terminou.
+    while (i <= meio) {
+        aux[k] = vetor[i];
+        k++;
+        i++;
+    }
+
+
+    while (j <= fim) {
+        aux[k] = vetor[j];
+        j++;
+        k++;
+    }
+
+
+    // Preenchendo vetor original com elementos agora em ordem
+    for(i=0;i<(fim - inicio + 1);i++)
+    {
+        vetor[inicio+i] = aux[i];
+    }
+    free(aux);
+    return ;
+}
+
+
+// Função para realizar o merge sort
+void mergeSort(int *vetor, int inicio, int fim){
+   
+    if (inicio >= fim){
+        return;
+    } else {
+        // Dividindo o vetor em dois até que ele possua somente um único elemento para ser analisado
+        int meio = (inicio + fim)/2;
+       
+        // Realizando a função recursiva que faz até que tenha somente um elemento
+        mergeSort(vetor, inicio, meio);
+        mergeSort(vetor, meio+1, fim);
+
+
+        // Unindo elementos após terem sido completamente separados
+        merge(vetor, inicio, meio, fim);
+    }
 }
