@@ -42,9 +42,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 2634.656685174954,
-			"y": -1811.5038208516526,
-			"lastActivityTimestamp": 1717455242889,
+			"x": 4754.37326582882,
+			"y": -540.6404030386173,
+			"lastActivityTimestamp": 1717461693156,
 			"meta": {}
 		},
 		{
@@ -105,12 +105,12 @@
 			"typeName": "instance"
 		},
 		{
-			"editingShapeId": null,
+			"editingShapeId": "shape:-xloGIVkVGafzC1OA4hN_",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:PqQfD_YCnkO11TrHfwkjl"
+				"shape:-xloGIVkVGafzC1OA4hN_"
 			],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:-xloGIVkVGafzC1OA4hN_",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -120,9 +120,9 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": 1622.7212583007984,
-			"y": 2425.77283411926,
-			"z": 0.14586442835117697,
+			"x": -2879.7265180454538,
+			"y": 1628.2038983260143,
+			"z": 0.3427846005552362,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -365,7 +365,7 @@
 				"color": "black",
 				"size": "m",
 				"w": 994.2840196588219,
-				"text": "Bubble Sort é um algoritmo de ordenação simples que percorre repetidamente a lista, compara elementos adjacentes e os troca se estiverem na ordem errada.",
+				"text": "Bubble Sort é um algoritmo de ordenação simples que percorre repetidamente a lista, compara elementos adjacentes e os troca se estiverem na ordem errada.\nPior Caso: O(N^2)\nMelhor Caso: O(N)",
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": false,
@@ -409,7 +409,7 @@
 			"type": "geo",
 			"props": {
 				"w": 1301.653274330506,
-				"h": 209.5789663976047,
+				"h": 327.4870014819322,
 				"geo": "rectangle",
 				"color": "black",
 				"labelColor": "black",
