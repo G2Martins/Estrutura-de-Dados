@@ -53,7 +53,6 @@ int main () {
     
     registro *reg_1 = cria_registro(lista_1);
     
-    
     registro *reg_2 = cria_registro(lista_1);
     inserir_prox(reg_1, reg_2);
     
